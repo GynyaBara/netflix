@@ -56,9 +56,10 @@ select {
   align-items: center;
 }
 .select-wrap::before {
+  width: 10px;
   position: absolute;
   content: url(../img/lengvig.png);
-  width: 25px;
+
   left: 10px;
 }
 .form {
@@ -205,6 +206,7 @@ footer p {
   font-size: 30px;
   font-weight: 500;
 }
+
 @media (max-width: 768px) {
   header h1 {
     font-size: 50px;
@@ -219,6 +221,10 @@ footer p {
   .nav-logo {
     width: 250px;
   }
+  .form {
+    width: 90%;
+  }
+  header,
   header .bg {
     height: 710px;
   }
@@ -226,10 +232,10 @@ footer p {
     font-size: 12px;
   }
   .section-blocks img {
-    width: 70%;
+    width: 250px;
   }
   .section-blocks {
-    height: 320px;
+    height: 390px;
     margin: 0 10px 0 20px;
     flex-direction: column;
     justify-content: center;
@@ -251,19 +257,22 @@ footer p {
     margin: 20px 0 30px;
   }
   button {
-    font-size: 20px;
-    padding: 8px 24px;
+    font-size: 18px;
+    padding: 8px 14px;
     margin-left: 5px;
   }
   .nav {
     flex-direction: column;
   }
   select {
-    font-size: 16px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 0 10px 24px;
   }
   .select-wrap::before {
-    left: 10px;
-    top: 5px;
+    display: none;
   }
 
   .questionons {
