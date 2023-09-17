@@ -216,6 +216,9 @@ footer p {
   header p {
     font-size: 20px;
   }
+  .nav-logo {
+    width: 250px;
+  }
   header .bg {
     height: 710px;
   }
@@ -226,9 +229,10 @@ footer p {
     width: 70%;
   }
   .section-blocks {
-    height: 420px;
+    height: 320px;
     margin: 0 10px 0 20px;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .section-blocks h1 {
@@ -249,6 +253,7 @@ footer p {
   button {
     font-size: 20px;
     padding: 8px 24px;
+    margin-left: 5px;
   }
   .nav {
     flex-direction: column;
@@ -289,8 +294,7 @@ footer p {
     font-size: 20px;
   }
   .footer-nav {
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column;
   }
   .footer-nav li a {
     font-size: 18px;
